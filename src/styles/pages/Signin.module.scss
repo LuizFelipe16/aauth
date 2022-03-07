@@ -1,0 +1,73 @@
+.sign_in {
+  width: 100vw;
+  height: 100vh;
+
+  padding: 1rem;
+  background-color: #171923;
+  color: #D53F8C;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    margin-bottom: 1.85rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  input, button, a {
+    width: 22rem;
+
+    margin-top: 0.35rem;
+    padding: 0.95rem;
+    border-radius: 0.25rem;
+
+    font-size: 1.10rem;
+
+    transition: 0.2s;
+  }
+
+  input {
+    background: #101118;
+    color: #D53F8C;
+    outline: none;
+    border: 0.15rem solid #101118;
+    border-bottom: 0.05rem solid #D53F8C;
+
+    &:focus {
+      border: 0.15rem solid #D53F8C;
+    }
+  }
+
+  button, a {
+    background: #D53F8C;
+    color: #171923;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+
+    text-align: center;
+
+    &:hover {
+      filter: brightness(75%);
+    }
+  }
+}
+
+@media (min-width: 220px) and (max-width: 380px) {
+  .sign_in {
+    h1 {
+      font-size: 1.60rem;
+    }
+
+    input, button {
+      width: 16rem;
+    }
+  }
+}
