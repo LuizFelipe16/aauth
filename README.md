@@ -66,11 +66,11 @@ How to Install
 - To download the project follow the instructions bellow:
 
 ```bash
-1. git clone 
-2. cd aauth
+1. git clone aauth and git clone aauth-server
+2. cd aauth and cd aauth-server
 ```
 
-- Install the dependencies and start the server:
+- Install the dependencies and start:
 
 ```bash
 3. yarn
